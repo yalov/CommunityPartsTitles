@@ -1,11 +1,11 @@
 {
     "NAME": "CommunityPartsRenamer",
-    "URL": "https://raw.githubusercontent.com/flart/CommunityPartsRenamer/master/CommunityPartsRenamer.version",
-    "DOWNLOAD": "https://github.com/flart/CommunityPartsRenamer/releases",
+    "URL": "https://raw.githubusercontent.com/yalov/CommunityPartsTitles/master/CommunityPartsRenamer.version",
+    "DOWNLOAD": "https://github.com/yalov/CommunityPartsTitles/releases",
     "VERSION":{
         "MAJOR": 0,
         "MINOR": 1,
-        "PATCH": 1,
+        "PATCH": 2,
         "BUILD": 0
     },
     "KSP_VERSION": {
