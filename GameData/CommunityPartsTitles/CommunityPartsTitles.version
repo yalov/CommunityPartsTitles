@@ -1,11 +1,11 @@
 {
-    "NAME": "CommunityPartsRenamer",
-    "URL": "https://raw.githubusercontent.com/yalov/CommunityPartsTitles/master/CommunityPartsRenamer.version",
-    "DOWNLOAD": "https://github.com/yalov/CommunityPartsTitles/releases",
-    "VERSION":{
+    "NAME":"CommunityPartsTitles",
+    "URL":"https://raw.githubusercontent.com/yalov/CommunityPartsTitles/master/GameData/CommunityPartsTitles/CommunityPartsTitles.version",
+    "DOWNLOAD":"https://github.com/yalov/CommunityPartsTitles/releases",
+    "VERSION": {
         "MAJOR": 0,
         "MINOR": 1,
-        "PATCH": 2,
+        "PATCH": 3,
         "BUILD": 0
     },
     "KSP_VERSION": {
@@ -24,4 +24,3 @@
         "PATCH": 9
     }
 }
-

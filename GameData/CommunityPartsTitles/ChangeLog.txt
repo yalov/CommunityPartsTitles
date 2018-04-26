@@ -1,4 +1,13 @@
 ChangeLog:
 
+1.1.3 (Alpha-3)
+	Kerbal Atomic
+	Cryo Engine
+	Cryo Tanks
+	Heat Control
+	NF Solar
+	NF Electrical
+	Patch for DMagicOrbitalScience and KER
+
 0.1.1 (Alpha-1)
 	Initial release
