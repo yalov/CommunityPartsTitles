@@ -1,0 +1,25 @@
+﻿{
+    "spec_version" : 1,
+    "identifier"   : "CommunityPartsTitles",
+    "$kref"        : "#/ckan/github/yalov/CommunityPartsTitles",
+    "name"         : "Community Parts Titles",
+    "author"       : "flart",
+    "abstract"     : "Rename parts for useful grouping and sorting in the VAB-list",
+    "license"      : "GPL-3.0",
+    "$vref" : "#/ckan/ksp-avc",
+    "resources" : {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/174189-*"
+    },
+    "recommends": [
+            { "name": "ModuleManager" }
+        ],
+    "suggests": [
+            { "name": "SpeedUnitAnnex" }
+        ],
+    "install" : [
+            {
+                "file"       : "GameData/002_CommunityPartsTitles",
+                "install_to" : "GameData"
+            }
+    ]
+}
