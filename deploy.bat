@@ -1,4 +1,4 @@
-set VERSION=0.1.4
+set VERSION=0.2.1
 set MODNAME=CommunityPartsTitles
 
 set RELEASESDIR=releases
