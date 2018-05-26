@@ -1,11 +1,11 @@
 {
     "NAME":"CommunityPartsTitles",
-    "URL":"https://raw.githubusercontent.com/yalov/CommunityPartsTitles/master/GameData/CommunityPartsTitles/CommunityPartsTitles.version",
+    "URL":"https://raw.githubusercontent.com/yalov/CommunityPartsTitles/master/GameData/002_CommunityPartsTitles/CommunityPartsTitles.version",
     "DOWNLOAD":"https://github.com/yalov/CommunityPartsTitles/releases",
     "VERSION": {
         "MAJOR": 0,
         "MINOR": 2,
-        "PATCH": 1,
+        "PATCH": 2,
         "BUILD": 0
     },
     "KSP_VERSION": {

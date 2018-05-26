@@ -1,5 +1,9 @@
 ChangeLog:
 
+0.2.2 (Beta-2)
+	Fix .version
+	Add MM to Archive
+
 0.2.1 (Beta-1)
 	Planetary Base Inc
 	Station Parts Expansion Redux

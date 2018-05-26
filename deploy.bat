@@ -1,11 +1,10 @@
-set VERSION=0.2.1
+set VERSION=0.2.2
 set MODNAME=CommunityPartsTitles
 
 set RELEASESDIR=releases
-set ZIP="c:\Program Files\7-zip\7z.exe"
 
 echo Version:  %VERSION%
 
-set FILE="%RELEASESDIR%\%MODNAME%-v%VERSION%.zip"
+set FILE="%MODNAME%-v%VERSION%.zip"
 IF EXIST %FILE% del /F %FILE%
-%ZIP% a -tzip %FILE% GameData
+"c:\Program Files\7-zip\7z.exe" a -tzip %FILE% GameData
