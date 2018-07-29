@@ -7,11 +7,10 @@ set RELEASESDIR=releases
 set ZIP="c:\Program Files\7-zip\7z.exe"
 
 REM The following requires the JQ program, available here: https://stedolan.github.io/jq/download/
-rem set JD=C:\ProgramData\chocolatey\lib\jq\tools\jq.exe
+set JD=c:\Users\User\Games\Development\jq-win64
 
 copy %VERSIONFILE% tmp.version
 set VERSIONFILE=tmp.version
-set JD=c:\Users\User\Games\Development\jq-win64
 
 %JD%  ".VERSION.MAJOR" %VERSIONFILE% >tmpfile
 set /P major=<tmpfile
