@@ -1,13 +1,17 @@
-﻿echo off
+@echo off
 
 set MODNAME=CommunityPartsTitles
-set VERSIONFILE=GameData\%MODNAME%\%MODNAME%.version
+set MODFOLDER=002_CommunityPartsTitles
+set VERSIONFILE=GameData\%MODFOLDER%\%MODNAME%.version
 set RELEASESDIR=releases
 set ZIP="c:\Program Files\7-zip\7z.exe"
 
 REM The following requires the JQ program, available here: https://stedolan.github.io/jq/download/
 rem set JD=C:\ProgramData\chocolatey\lib\jq\tools\jq.exe
-set JD=c:\tools\jq-win64.exe
+
+copy %VERSIONFILE% tmp.version
+set VERSIONFILE=tmp.version
+set JD=c:\Users\User\Games\Development\jq-win64
 
 %JD%  ".VERSION.MAJOR" %VERSIONFILE% >tmpfile
 set /P major=<tmpfile
@@ -21,6 +25,7 @@ set /P patch=<tmpfile
 %JD%  ".VERSION.BUILD" %VERSIONFILE% >tmpfile
 set /P build=<tmpfile
 del tmpfile
+del tmp.version
 set VERSION=%major%.%minor%.%patch%
 if "%build%" NEQ "0"  set VERSION=%VERSION%.%build%
 
@@ -29,3 +34,5 @@ echo Version:  %VERSION%
 set FILE="%RELEASESDIR%\%MODNAME%-v%VERSION%.zip"
 IF EXIST %FILE% del /F %FILE%
 %ZIP% a -tzip %FILE% GameData
+
+pause
