@@ -1,4 +1,8 @@
 ChangeLog:
+0.2.6 (Beta-6)
+	new: KAX
+	delete: KAS (until KAS 1.0 relesed)
+	updates: nf-electrical
 
 0.2.5 (Beta-5)
 	new: JX2Antenna
