@@ -1,5 +1,9 @@
 ChangeLog:
-0.2.7 (Beta-7)
+0.2.8
+	new: kerbal foundries
+	updates: stock-wheels
+
+0.2.7
 	new: nf-aeronautics, MSP3000
 	updates: KAX, SEP
 	
