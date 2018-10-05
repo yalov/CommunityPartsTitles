@@ -1,4 +1,7 @@
 ChangeLog:
+0.2.9
+	new: kOS
+
 0.2.8
 	new: kerbal foundries
 	updates: stock-wheels
