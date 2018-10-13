@@ -1,4 +1,7 @@
 ChangeLog:
+0.2.10
+	updates: Airplane Plus v24.0
+
 0.2.9
 	new: kOS
 
