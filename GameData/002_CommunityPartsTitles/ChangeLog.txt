@@ -1,4 +1,18 @@
 ChangeLog:
+0.3.0
+	new: 
+	    NF-Construction
+	    KAS (1.0 & Legacy)
+	updates: 
+	    Engines
+	    Girgers
+	    MM v3.1.0
+	Extras\ folder with patches, what can move parts to other category:
+	    KAS&KIS in the one cck-EVA category
+	    cck-parts don't appear in the stock categories
+	
+	
+
 0.2.10
 	updates: Airplane Plus v24.0
 

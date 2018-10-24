@@ -32,6 +32,6 @@ echo Version:  %VERSION%
 
 set FILE="%RELEASESDIR%\%MODNAME%-v%VERSION%.zip"
 IF EXIST %FILE% del /F %FILE%
-%ZIP% a -tzip %FILE% GameData
+%ZIP% a -tzip %FILE% GameData Extras
 
 pause
