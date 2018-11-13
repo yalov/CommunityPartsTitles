@@ -1,11 +1,20 @@
 ChangeLog:
+
+0.3.1
+	new: 
+	    BetterSRBs
+	updates: 
+	    NF-Spacecraft v1.0
+	    MM v3.1.1
+
+
 0.3.0
 	new: 
 	    NF-Construction
 	    KAS (1.0 & Legacy)
 	updates: 
 	    Engines
-	    Girgers
+	    Girder segments
 	    MM v3.1.0
 	Extras\ folder with patches, what can move parts to other category:
 	    KAS&KIS in the one cck-EVA category

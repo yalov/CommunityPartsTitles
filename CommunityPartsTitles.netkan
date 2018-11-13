@@ -1,5 +1,5 @@
-﻿{
-    "spec_version" : 1,
+{
+    "spec_version" : "v1.4",
     "identifier"   : "CommunityPartsTitles",
     "$kref"        : "#/ckan/github/yalov/CommunityPartsTitles",
     "name"         : "Community Parts Titles",
@@ -11,10 +11,55 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/174189-*"
     },
     "recommends": [
-            { "name": "ModuleManager" }
+            { "name": "ModuleManager" },
+            { "name": "SpeedUnitAnnex" },
+
+            { "name": "CommunityPartsTitlesExtras" }
+	    
         ],
     "suggests": [
-            { "name": "SpeedUnitAnnex" }
+            { "name": "KAS" },
+            { "name": "KIS" },
+	    { "name": "CommunityCategoryKit" },
+            { "name": "KerbalEngineerRedux" },
+            { "name": "FuelTanksPlus" },
+            { "name": "SpaceY-Lifters" },
+            { "name": "SpaceY-Expanded" },
+
+            { "name": "StationPartsExpansionRedux" },
+
+            { "name": "NearFutureAeronautics" },
+            { "name": "NearFutureElectrical" },
+            { "name": "NearFuturePropulsion" },
+            { "name": "NearFutureSolar" },
+            { "name": "NearFutureSpacecraft" },
+            { "name": "NearFutureLaunchVehicles" },
+            { "name": "NearFutureConstrustion" }, 
+            { "name": "KerbalAtomics" },
+            { "name": "CryoEngines" },
+            { "name": "CryoTanks" },
+            { "name": "HeatControl" },
+
+            { "name": "MissingHistory" },
+            { "name": "KerbalPlanetaryBaseSystems" },
+            { "name": "TACLS" },
+            { "name": "FASALaunchClampsContinued" },
+
+            { "name": "Mk2Expansion" },
+            { "name": "KerbalAircraftExpansion" },
+
+            { "name": "AirplanePlus" },
+            { "name": "MK1StkOpenCockpit" },
+
+            { "name": "CommNetAntennasExtension" },
+            { "name": "JX2Antenna" },
+
+            { "name": "SurfaceExperimentPack" },
+            { "name": "TarsierSpaceTechnologyWithGalaxies" },
+            { "name": "kOS" },
+            { "name": "KerbalFoundriesContinued" },
+            { "name": "MSP3000" },
+            { "name": "DMagicOrbitalScience" }
         ],
     "install" : [
             {
