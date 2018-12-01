@@ -1,5 +1,13 @@
 ChangeLog:
 
+0.3.2
+	new: 
+	    Kerbonov Kn-2
+	updates: 
+	    Missing History
+	    tanks
+	    MM v3.1.2
+
 0.3.1
 	new: 
 	    BetterSRBs
