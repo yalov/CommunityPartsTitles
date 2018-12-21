@@ -1,5 +1,12 @@
 ChangeLog:
 
+0.3.4
+	update for the ksp 1.6
+
+	uncompatible with ksp 1.3-1.5, because since ksp 1.6.0 the adapter s2-s3 is in the tanks, 
+	so it should have a new title, 
+	but it share the same #autoloc with the previous version. 
+
 0.3.3
 	updates: 
 		engines
