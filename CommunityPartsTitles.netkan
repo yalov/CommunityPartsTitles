@@ -4,7 +4,6 @@
     "$kref"        : "#/ckan/github/yalov/CommunityPartsTitles",
     "name"         : "Community Parts Titles",
     "author"       : "flart",
-    "abstract"     : "Rename parts for useful grouping and sorting in the VAB-list",
     "license"      : "GPL-3.0",
     "$vref" : "#/ckan/ksp-avc",
     "resources" : {
@@ -12,10 +11,7 @@
     },
     "recommends": [
             { "name": "ModuleManager" },
-            { "name": "SpeedUnitAnnex" },
-
-            { "name": "CommunityPartsTitlesExtras" }
-	    
+            { "name": "SpeedUnitAnnex" }
         ],
     "suggests": [
             { "name": "KAS" },
@@ -25,6 +21,7 @@
             { "name": "FuelTanksPlus" },
             { "name": "SpaceY-Lifters" },
             { "name": "SpaceY-Expanded" },
+            { "name": "BetterSRBs" },
 
             { "name": "StationPartsExpansionRedux" },
 
@@ -34,7 +31,7 @@
             { "name": "NearFutureSolar" },
             { "name": "NearFutureSpacecraft" },
             { "name": "NearFutureLaunchVehicles" },
-            { "name": "NearFutureConstrustion" }, 
+            { "name": "NearFutureConstruction" }, 
             { "name": "KerbalAtomics" },
             { "name": "CryoEngines" },
             { "name": "CryoTanks" },
@@ -47,9 +44,9 @@
 
             { "name": "Mk2Expansion" },
             { "name": "KerbalAircraftExpansion" },
-
             { "name": "AirplanePlus" },
             { "name": "MK1StkOpenCockpit" },
+            { "name": "Kerbonov" },
 
             { "name": "CommNetAntennasExtension" },
             { "name": "JX2Antenna" },
