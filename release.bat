@@ -3,13 +3,18 @@
 set MODNAME=CommunityPartsTitles
 set MODFOLDER=002_CommunityPartsTitles
 set VERSIONFILE=GameData\%MODFOLDER%\%MODNAME%.version
-set RELEASESDIR=releases
+set RELEASESDIR=Releases
 set ZIP="c:\Program Files\7-zip\7z.exe"
 
 REM The following requires the JQ program, available here: https://stedolan.github.io/jq/download/
 set JD=c:\Users\User\Games\Development\jq-win64
 
-copy %VERSIONFILE% tmp.version
+rem Copy .version and ChangeLog to MODFOLDER
+copy "%MODNAME%.version" "GameData\%MODFOLDER%\" /Y 
+copy "ChangeLog.txt" "GameData\%MODFOLDER%\" /Y 
+
+
+copy "%VERSIONFILE%" "tmp.version"
 set VERSIONFILE=tmp.version
 
 %JD%  ".VERSION.MAJOR" %VERSIONFILE% >tmpfile
@@ -32,6 +37,7 @@ echo Version:  %VERSION%
 
 set FILE="%RELEASESDIR%\%MODNAME%-v%VERSION%.zip"
 IF EXIST %FILE% del /F %FILE%
-%ZIP% a -tzip %FILE% GameData Extras
+IF EXIST GameData %ZIP% a -tzip %FILE% GameData
+IF EXIST Extras %ZIP% a -tzip %FILE% Extras
 
 pause
