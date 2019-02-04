@@ -1,0 +1,10 @@
+{
+	"MODNAME": "CommunityPartsTitles",
+	"MODFOLDER": "002_CommunityPartsTitles",
+	"VERSIONFILE": "auto",
+	"RELEASESDIR": "Releases",
+	"CHANGELOG": "ChangeLog.md",
+	"DRAFT": false,
+	"PRERELEASE": false,
+	"SPACEDOCK_ID": "1934"
+}
