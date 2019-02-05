@@ -1,5 +1,8 @@
 ChangeLog:
 
+## 0.3.7.1
+ * fix picoport-patch (MM warning)
+
 ## 0.3.7
  * updates:
     * Airplane Plus v25.0
