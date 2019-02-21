@@ -1,5 +1,17 @@
 ChangeLog:
 
+## 0.4.0
+ * Extras?
+ * updates:
+    * tanks
+    * KPBS
+ * new:
+    * DockRotate
+    * PWBFuelBalancerRestored
+    * MandatoryRCSPartPack
+    * RLA Reborn
+    * Universal Storage 2
+
 ## 0.3.7.1
  * fix picoport-patch (MM warning)
 
