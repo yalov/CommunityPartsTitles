@@ -1,5 +1,25 @@
 ChangeLog:
 
+## 0.4.0
+ * new:
+    * ReStock+ 0.1.1
+    * Universal Storage 2
+    * RLA Reborn
+    * Mandatory RCS Part Pack
+    * Dock Rotate
+    * PWB Fuel Balancer Restored
+ * updates:
+    * KPBS
+    * tanks
+    * solar-panels
+    * rcs-blocks
+    * srb 0.6m
+ * patches in the Extras\ are installed by default
+    * all KAS in the cck-eva
+    * fill cck-light
+    * new cck-universal-storage
+    * hide cck from stock categories
+
 ## 0.3.7.1
  * fix picoport-patch (MM warning)
 
