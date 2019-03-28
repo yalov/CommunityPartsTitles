@@ -1,10 +1,18 @@
 ChangeLog:
 
 ## 0.4.1
+ * new:
+    * Dmagic Orbital Science: US2 parts
+    * Internal RCS - mostly unchanged
+    * UnKerballed Start - mostly unchanged
  * updates:
-    * Universal Storage 2 v1.6.0.10
-    * Science
-
+    * Mk2 Expansion
+    * US2 v1.6.0.10 beta
+    * KerbalFoundries v2.3.7.17 Prerelease
+    * science: 2HOT, 3PresMat, 4Double-C, 6RAVMAX
+    * height for SRB 
+ * fixes:
+    * fix US2 missing parts for US2+CCK+Kerbalism
 
 ## 0.4.0
  * new:
@@ -20,7 +28,7 @@ ChangeLog:
     * solar-panels
     * rcs-blocks
     * srb 0.6m
- * patches in the Extras\ are installed by default:
+ * patches in the Extras\ are installed by default
     * all KAS in the cck-eva
     * fill cck-light
     * new cck-universal-storage
@@ -36,7 +44,7 @@ ChangeLog:
     * MM v4.0.2
  * new:
     * PicoPort
-    * Glass Panes and Enclosures
+    * GlassThings
     * SCANsat
 
 ## 0.3.6

@@ -1,5 +1,19 @@
 ChangeLog:
 
+## 0.4.1
+ * new:
+    * Dmagic Orbital Science: US2 parts
+    * Internal RCS - mostly unchanged
+    * UnKerballed Start - mostly unchanged
+ * updates:
+    * Mk2 Expansion
+    * US2 v1.6.0.10 beta
+    * KerbalFoundries v2.3.7.17 Prerelease
+    * science: 2HOT, 3PresMat, 4Double-C, 6RAVMAX
+    * height for SRB 
+ * fixes:
+    * fix US2 missing parts for US2+CCK+Kerbalism
+
 ## 0.4.0
  * new:
     * ReStock+ 0.1.1
