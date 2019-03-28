@@ -1,5 +1,11 @@
 ChangeLog:
 
+## 0.4.1
+ * updates:
+    * Universal Storage 2 v1.6.0.10
+    * Science
+
+
 ## 0.4.0
  * new:
     * ReStock+ 0.1.1
@@ -14,7 +20,7 @@ ChangeLog:
     * solar-panels
     * rcs-blocks
     * srb 0.6m
- * patches in the Extras\ are installed by default
+ * patches in the Extras\ are installed by default:
     * all KAS in the cck-eva
     * fill cck-light
     * new cck-universal-storage
@@ -30,7 +36,7 @@ ChangeLog:
     * MM v4.0.2
  * new:
     * PicoPort
-    * GlassThings
+    * Glass Panes and Enclosures
     * SCANsat
 
 ## 0.3.6

@@ -1,8 +1,10 @@
 """requirements: 
 Python3, pip install PyGithub, release_spacedock_utils.py
+
 Public domain license.
-author: flart, version: 2
+author: flart, version: 6
 https://github.com/yalov/SpeedUnitAnnex/blob/master/release.py
+
 Script loads release-arhive to github and spacedock
 you need to set values in the release.json
 also you need to place github-token and spacedock login+pass
@@ -64,7 +66,7 @@ def get_version(version_file, obj="VERSION"):
 
 def get_description(path):
     """ Get description of the last version in the changelog """
-    version = r"(#+ )?(Version )?\d\.\d\.\d(\.\d)?(/\d\.\d\.\d(\.\d)?)?"
+    version = r"(#+ )?(Version )?\d\.\d\.\d(\.\d)?(/\d\.\d\.\d(\.\d)?)?( [(\"\')][^\n]*[)\"\')])?"
     changelog = open(path).read()
     pattern = r"\n\s*\n{0}\n(?P<last>.+?)\n({0}|\n\Z|\Z)".format(version)
     desc = re.search(pattern, changelog, re.DOTALL).group('last')
@@ -157,16 +159,17 @@ if __name__ == '__main__':
     KSP_MIN = get_version(VERSIONFILE, "KSP_VERSION_MIN")
     KSP_MAX = get_version(VERSIONFILE, "KSP_VERSION_MAX")
 
-    LAST_CHANGE = get_description(CHANGELOG)
-    ZIPFILE = os.path.join(RELEASESDIR, MODNAME + "-v" + VERSION + ".zip")
-
     print("version: {}\nksp_ver: {}\nksp_min: {}\nksp_max: {}\n"
           .format(VERSION, KSP_VER, KSP_MIN, KSP_MAX))
+    print("draft: {}\nprerelease: {}\n".format(DRAFT, PRERELEASE))
+    print("parsing "+ CHANGELOG +" ...")   
+    LAST_CHANGE = get_description(CHANGELOG)
     print("= start of desc ============")
     print(LAST_CHANGE)
     print("= end of desc ==============")
     print("")
 
+    ZIPFILE = os.path.join(RELEASESDIR, MODNAME + "-v" + VERSION + ".zip")
     if os.path.exists(ZIPFILE):
         print(ZIPFILE + " already exists.")
         if input("Re-zip? [y/N]: ") == 'y':
@@ -176,8 +179,8 @@ if __name__ == '__main__':
         archive_to(ZIPFILE)
     
     print("")
-    print("You already push your changes to repo, don't you?")
-    print("Create the tag, and publish a release with the asset?")
+    print("You already push your changes to a remote repo, don't you?")
+    print("Create the tag, and publish a {}{} with the asset?".format("DRAFT " if DRAFT else "","PRERELEASE" if PRERELEASE else "RELEASE" ))
     if input("[y/N]: ") == 'y':
         publish_to_github(TOKEN, MODNAME, VERSION, LAST_CHANGE, DRAFT, PRERELEASE, ZIPFILE)
 
