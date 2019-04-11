@@ -6,7 +6,6 @@ ChangeLog:
  * new:
     * Snacks
 
-
 ## 0.4.1
  * new:
     * Dmagic Orbital Science: US2 parts
