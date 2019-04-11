@@ -1,6 +1,13 @@
 ChangeLog:
 
 ## 0.4.1
+ * updates:
+    * ksp 1.7 nose cones
+ * new:
+    * Snacks
+
+
+## 0.4.1
  * new:
     * Dmagic Orbital Science: US2 parts
     * Internal RCS - mostly unchanged
