@@ -1,6 +1,10 @@
 ChangeLog:
 
-## 0.4.1
+## 0.4.3
+ * updates:
+	* nf-solar 1.0
+
+## 0.4.2
  * updates:
     * ksp 1.7 nose cones
  * new:
