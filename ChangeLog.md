@@ -1,5 +1,11 @@
 ChangeLog:
 
+## 0.4.4
+ * new:
+	* DLC Breaking Ground
+    * Interkosmos
+    * ProbesBeforeCrew
+
 ## 0.4.3
  * updates:
 	* nf-solar 1.0
