@@ -1,14 +1,19 @@
 ChangeLog:
 
+## 0.4.5
+ * updates:
+    * DLC Breaking Ground
+    * Extras/
+
 ## 0.4.4
  * new:
-	* DLC Breaking Ground
+    * DLC Breaking Ground
     * Interkosmos
     * ProbesBeforeCrew
 
 ## 0.4.3
  * updates:
-	* nf-solar 1.0
+    * nf-solar 1.0
 
 ## 0.4.2
  * updates:
@@ -68,7 +73,7 @@ ChangeLog:
     * Missing History
     * atomic
     * mk2ex
-	
+
 ## 0.3.5
  * ksp 1.3.0 - ksp 1.6.9, compatibility is back!  
    old s2-s3 adapter is "Adapter 25-37 Kerbodyne Brand" (whatever you have the old ksp 1.3-1.5 or you enabled the old part on the ksp1.6)
@@ -142,7 +147,7 @@ ChangeLog:
     new: 
         JX2Antenna
     updates:
-	OpenCockpit 
+        OpenCockpit 
         SRBs
         Battery
         S3-Engines
