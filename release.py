@@ -4,7 +4,7 @@ pip install GitPython PyGithub
 ./release_spacedock_utils.py
 
 Public domain license.
-author: flart, version: 10
+author: flart, version: 12
 https://github.com/yalov/SpeedUnitAnnex/blob/master/release.py
 
 Script loads release-arhive to github and spacedock
@@ -24,6 +24,7 @@ import os.path
 import re
 from shutil import copy
 import zipfile
+from tkinter import Tk
 
 from git import Repo
 from github import Github
@@ -69,9 +70,17 @@ def get_version(version_file, obj="VERSION"):
     return version
 
 
+def copy_to_clipboard(text):
+    r = Tk()
+    r.withdraw()
+    r.clipboard_clear()
+    r.clipboard_append(text)
+    r.update() # now it stays on the clipboard after the window is closed
+    r.destroy()
+
 def get_description(path):
     """ Get description of the last version in the changelog """
-    version = r"(#+ )?(Version )?\d\.\d\.\d(\.\d)?(/\d\.\d\.\d(\.\d)?)?( [(\"\')][^\n]*[)\"\')])?"
+    version = r"(#+ )?(Version )?\d(\d)?\.\d(\d)?\.\d(\d)?(\.\d)?(/\d(\d)?\.\d(\d)?\.\d(\d)?(\.\d)?)?( [(\"\')][^\n]*[)\"\')])?"
     changelog = open(path).read()
     pattern = r"\n\s*\n{0}\n(?P<last>.+?)\n({0}|\n\Z|\Z)".format(version)
     desc = re.search(pattern, changelog, re.DOTALL).group('last')
@@ -174,10 +183,12 @@ if __name__ == '__main__':
     print("draft: {}\nprerelease: {}\n".format(DRAFT, PRERELEASE))
     print("parsing "+ CHANGELOG +" ...")   
     LAST_CHANGE = get_description(CHANGELOG)
+    copy_to_clipboard(LAST_CHANGE)
     print("- start of desc ------------")
     print(LAST_CHANGE)
     print("- end of desc --------------")
     print("")
+
 
     ZIPFILE = os.path.join(RELEASESDIR, MODNAME + "-v" + VERSION + ".zip")
     if os.path.exists(ZIPFILE):
