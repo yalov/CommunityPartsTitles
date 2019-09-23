@@ -10,13 +10,16 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/174189-*"
     },
     "recommends": [
+            { "name": "CommunityPartsTitlesExtrasCategory" },
+            { "name": "CommunityPartsTitlesExtrasNoCCKDup" },
             { "name": "ModuleManager" },
-            { "name": "SpeedUnitAnnex" }
+            { "name": "SpeedUnitAnnex" },
+            { "name": "CommunityCategoryKit" }
         ],
     "suggests": [
             { "name": "KAS" },
             { "name": "KIS" },
-            { "name": "CommunityCategoryKit" },
+
             { "name": "KerbalEngineerRedux" },
             { "name": "FuelTanksPlus" },
             { "name": "SpaceY-Lifters" },
@@ -72,7 +75,9 @@
     "install" : [
             {
                 "file"       : "GameData/002_CommunityPartsTitles",
-                "install_to" : "GameData"
+                "install_to" : "GameData",
+				"filter"     : "Extras",
+				"comment"    : "Exclude Extras/ folder. There are CommunityPartsTitlesExtrasCategory and CommunityPartsTitlesExtrasNoCCKDup for it"
             }
     ]
 }
