@@ -1,5 +1,21 @@
 ChangeLog:
 
+## 0.5.0
+ * Separated Extras/ from the main CPT.
+    * Community Parts Titles Extras: Category  
+      Create new categories or place parts to a more appropriate category.
+    * Community Parts Titles Extras: CCK - No Duplicates
+      If parts are placed in a CCK category, it usually also appeared in the original category.  
+      This patch hide all CCK-parts from the original categories.  
+      CPT give new titles considering the "No Duplicates", so it is recommended. 
+      The mod was separated, because it has one disadvantage: 
+      parts what was hided from their original categories are not available in the search. 
+ * new:
+    * Recycled Parts: Atomic Age 0.1.7
+    * Solid Fuel Cell
+ * updates:
+    * nf-aeronautics
+
 ## 0.4.6
  * updates:
     * cryo-engines 1.0
