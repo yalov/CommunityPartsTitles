@@ -1,5 +1,14 @@
 ChangeLog:
 
+## 0.5.1
+ * new:
+    * TransparentPods 1.2.3.3
+ * updates:
+    * ksp 1.8.0
+    * Restock+ dev
+ * extras:
+    * remove :FINAL from the Extras patches
+
 ## 0.5.0
  * Separated Extras/ from the main CPT on CKAN 
    (but on Spacedock and github they are still in the archive and inside inner folder)
