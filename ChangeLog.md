@@ -1,5 +1,8 @@
 ChangeLog:
 
+## 0.5.2
+ * Restock+ 1.0
+
 ## 0.5.1
  * new:
     * TransparentPods 1.2.3.3
