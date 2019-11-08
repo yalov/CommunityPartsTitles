@@ -1,7 +1,14 @@
 ChangeLog:
 
+## 0.5.3
+ * new:
+    * DeployableBatteries 0.2.0.5
+ * updates:
+    * NF Solar 1.1
+
 ## 0.5.2
- * Restock+ 1.0
+ * updates:
+    * Restock+ 1.0
 
 ## 0.5.1
  * new:
