@@ -1,5 +1,13 @@
 ChangeLog:
 
+## 0.5.4
+ * fixes:
+    * removed the dublicate of localization folder
+    * parts isn't hidden from the Cargo category 
+ * updates:
+    * removed Deployable Batteries patch, it's better by default
+    * prepend cck-tags
+
 ## 0.5.3
  * new:
     * DeployableBatteries 0.2.0.5
