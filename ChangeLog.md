@@ -1,5 +1,9 @@
 ChangeLog:
 
+## 0.5.5
+ * new (Beta):
+    * NF Exploration 1.0.4
+
 ## 0.5.4
  * fixes:
     * removed the dublicate of localization folder

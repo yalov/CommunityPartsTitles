@@ -6,9 +6,14 @@
     "author"       : "flart",
     "license"      : "GPL-3.0",
     "$vref" : "#/ckan/ksp-avc",
+    "tags": [
+        "config",
+		"convenience"
+    ],
     "resources" : {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/174189-*"
     },
+
     "recommends": [
             { "name": "CommunityPartsTitlesExtrasCategory" },
             { "name": "CommunityPartsTitlesExtrasNoCCKDup" },
