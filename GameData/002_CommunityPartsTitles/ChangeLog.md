@@ -1,5 +1,9 @@
 ChangeLog:
 
+## 0.5.5.1
+ * fixes:
+    * NF Exploration: revert buses
+
 ## 0.5.5
  * new (Beta):
     * NF Exploration 1.0.4
