@@ -1,5 +1,13 @@
 ChangeLog:
 
+## 0.5.6
+ * new:
+    * SmartParts 1.9.14
+ * updates:
+    * Restock+ 1.0.3
+    * kOS 1.2.1
+    * US2 1.8.1.11 Beta
+
 ## 0.5.5.1
  * fixes:
     * NF Exploration: revert buses
