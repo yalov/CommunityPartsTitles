@@ -1,5 +1,13 @@
 ChangeLog:
 
+## 0.6.0
+ * new:
+    * Regex-replace for the stock descriptions: titles corresponds descriptions now.
+ * updates:
+    * ksp 1.9.0
+    * renamed files
+    * SCANsat 19.0 beta
+
 ## 0.5.6
  * new:
     * SmartParts 1.9.14
