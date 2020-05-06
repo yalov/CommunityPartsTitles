@@ -1,5 +1,11 @@
 ChangeLog:
 
+## 0.6.1
+ * updates:
+    * ReStock+ 1.1.1
+    * NF Launch Vehicles 2.0.1
+    * MM 4.1.3
+        
 ## 0.6.0
  * new:
     * Regex-replace for the stock descriptions: titles corresponds descriptions now.
