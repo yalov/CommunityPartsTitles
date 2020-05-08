@@ -1,5 +1,9 @@
 ChangeLog:
 
+## 0.6.1.1
+ * fixes:
+    * NF Launch Vehicles 2.0.1
+
 ## 0.6.1
  * updates:
     * ReStock+ 1.1.1
