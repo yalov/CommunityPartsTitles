@@ -1,6 +1,10 @@
 ChangeLog:
 
-## 0.6.2 (Unreleased)
+## 0.6.3
+ * updates:
+    * UniversalStorage2 1.9.1.1
+
+## 0.6.2
  * updates:
     * SCANsat 20.1
 
