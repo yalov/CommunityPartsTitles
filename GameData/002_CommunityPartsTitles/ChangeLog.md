@@ -1,5 +1,10 @@
 ChangeLog:
 
+## 0.6.3.1
+ * fixes:
+    * SCANsat 20.1
+      Revert original numbers as nicknames
+
 ## 0.6.3
  * updates:
     * UniversalStorage2 1.9.1.1
