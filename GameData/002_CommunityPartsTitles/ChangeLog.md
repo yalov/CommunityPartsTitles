@@ -1,5 +1,9 @@
 ChangeLog:
 
+## 0.6.4
+ * updates:
+    * ksp 1.10
+
 ## 0.6.3.1
  * fixes:
     * SCANsat 20.1
