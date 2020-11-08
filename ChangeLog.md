@@ -1,5 +1,13 @@
 ChangeLog:
 
+## 0.6.5
+ * new:
+    * Missing Robotics 1.0
+    * KSP Secondary Motion 0.1.1
+    * Wyvern 5 Capsule 0.5
+ * updates:
+    * OpenCockpit 1.3.0
+
 ## 0.6.4
  * updates:
     * ksp 1.10
