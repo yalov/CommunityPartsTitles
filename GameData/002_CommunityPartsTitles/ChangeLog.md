@@ -1,5 +1,9 @@
 ChangeLog:
 
+## 0.6.6
+ * updates:
+    * ksp 1.11
+
 ## 0.6.5
  * new:
     * Missing Robotics 1.0
