@@ -1,5 +1,9 @@
 ChangeLog:
 
+## 0.6.7
+ * new:
+    * kiwi tech tree 1.3.0
+
 ## 0.6.6
  * updates:
     * ksp 1.11
