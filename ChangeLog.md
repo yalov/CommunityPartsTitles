@@ -1,5 +1,11 @@
 ## ChangeLog:
 
+### 0.6.9
+ * updates:
+    * ksp 1.11.1
+    * Restock+ 1.3.1
+    * SmartParts 1.9.16
+
 ### 0.6.8
  * updates:
     * ksp 1.11.1
