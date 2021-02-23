@@ -1,5 +1,21 @@
 ## ChangeLog:
 
+### 0.7.0
+Thanks to @LouisB3 for the work on this release
+ * new:
+    * FarFutureTechnologies 1.0.1
+    * SystemHeat 0.3.7
+    * Kerbal Reusability Expansion 2.9.1  
+ * updates:
+    * KerbalAtomics 1.2.1
+    * CryoEngines 1.2.1 Dev (MethaloxEngines)
+    * CryoTanks 1.5.6
+    * NearFutureSpacecraft 1.4.1
+    * NearFutureLaunchVehicles 2.1.2
+ * CommunityPartsTitles Extras Category:
+    * Disable NFLV simple view CCK category. You could use Extended NFLV category. 
+      If you want the NFLV simple view CCK category back, remove the 002_CommunityPartsTitles\Extras\category_no_nflv.cfg
+
 ### 0.6.9
  * updates:
     * ksp 1.11.1
