@@ -1,5 +1,11 @@
 ## ChangeLog:
 
+### 0.7.1
+ * updates:
+    * CryoEngines 2.0.0 (@LouisB3)
+ * rename patches in extras to be more clear:  
+   category_hide_nflv, category_hide_cck_parts
+
 ### 0.7.0
 Thanks to @LouisB3 for the work on this release
  * new:
