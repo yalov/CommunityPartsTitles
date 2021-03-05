@@ -1,5 +1,5 @@
-"""requirements: 
-Python3.9 
+"""requirements:
+Python3.9
 pip install pyperclip GitPython PyGithub
 ./release_spacedock_utils.py
 make sure, that ssh is set up
@@ -7,7 +7,7 @@ make sure, that ssh is set up
 
 Public domain license.
 https://github.com/yalov/SpeedUnitAnnex/blob/master/release.py
-version: 18
+version: 19
 
 Script loads release-arhive to github and spacedock
 you need to set values in the release.json
@@ -39,9 +39,9 @@ def archive_to(file):
         os.remove(file)
 
     if os.path.exists("GameData"):
-        make_archive(file.removesuffix(".zip"), 'zip', base_dir="GameData")
+        make_archive(os.path.splitext(file)[0], 'zip', base_dir="GameData")
     if os.path.exists("Extras"):
-        make_archive(file.removesuffix(".zip"), 'zip', base_dir="Extras")
+        make_archive(os.path.splitext(file)[0], 'zip', base_dir="Extras")
 
     print("Size: {} byte"
           .format(os.path.getsize(file)))
@@ -121,7 +121,7 @@ if __name__ == '__main__':
     print("version: {}\nksp_ver: {}\nksp_min: {}\nksp_max: {}\n"
           .format(VERSION, KSP_VER, KSP_MIN, KSP_MAX))
     print("draft: {}\nprerelease: {}\n".format(DRAFT, PRERELEASE))
-    print("parsing "+ CHANGELOG +" ...")   
+    print("parsing "+ CHANGELOG +" ...")
     LAST_CHANGE = get_description(CHANGELOG)
     import pyperclip
     pyperclip.copy(LAST_CHANGE)
@@ -140,17 +140,19 @@ if __name__ == '__main__':
         print("Creating "+ ZIPFILE +" ...")
         archive_to(ZIPFILE)
 
- 
+
     print("")
-    print("GITHUB:")   
+    print("GITHUB:")
     print("You already push your changes to a remote repo, don't you?")
     print("Create the tag, and publish a {}{} with the asset?".format("DRAFT " if DRAFT else "","PRERELEASE" if PRERELEASE else "RELEASE" ))
     if input("[y/N]: ") == 'y':
-        PublishToGithub(TOKEN, MODNAME, VERSION, LAST_CHANGE, DRAFT, PRERELEASE, ZIPFILE)
+        resp = PublishToGithub(TOKEN, MODNAME, VERSION, LAST_CHANGE, DRAFT, PRERELEASE, ZIPFILE)
+        if resp == 1:
+            is_published=True
 
     # ======================================
-    
-    print("")    
+
+    print("")
     print("SPACEDOCK:")
     if not SD_ID:
         print("Spacedock number is not found in the json.")
@@ -158,9 +160,9 @@ if __name__ == '__main__':
         sys.exit(-1)
 
     print("Accessing to Spacedock...")
-    all_versions = [v['name'] for v in GetSpacedockKSPVersions()]
-
-    if not all_versions:
+    try:
+        all_versions = [v['name'] for v in GetSpacedockKSPVersions()]
+    except:
         print("Failed. Could not access to Spacedock.")
         input("Press Enter to exit")
         sys.exit(-1)
@@ -193,9 +195,11 @@ if __name__ == '__main__':
 
     print("Publish {} (KSP {}) to the Spacedock?".format(VERSION, KSP_VER))
     if input("[y/N]: ") == 'y':
-        PublishToSpacedock(SD_ID, ZIPFILE, LAST_CHANGE, VERSION, KSP_VER, SD_LOGIN, SD_PASS)
+        resp = PublishToSpacedock(SD_ID, ZIPFILE, LAST_CHANGE, VERSION, KSP_VER, SD_LOGIN, SD_PASS)
+        if not resp[0]["error"]:
+            is_published=True
 
-    if FORUM_ID:
+    if FORUM_ID and 'is_published' in locals():
         import webbrowser
         webbrowser.open(f"https://forum.kerbalspaceprogram.com/index.php?/topic/{FORUM_ID}-*", new=2, autoraise=False)
         print("The forum page is opened.")

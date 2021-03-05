@@ -10,7 +10,11 @@ from github import Github
 from github import GithubException
 
 def PublishToGithub(token, mod_name, version, last_change, is_draft, is_prerelease, zip_file):
-    """create tag and publish a release"""
+    """create tag and publish a release,
+    Returns:
+        1: succeed
+        0: failed
+    """
     sys.stdout.write(" * Github connection...")
     github = None
     repo = None
@@ -21,14 +25,14 @@ def PublishToGithub(token, mod_name, version, last_change, is_draft, is_prerelea
         user = github.get_user()
     except Exception:
         print(" failed.")
-        sys.exit(-1)
+        return 0
 
     try:
         repo = user.get_repo(mod_name)
         print(" user: {}, repo: {}".format(user.login, repo.name))
     except Exception:
         print(" failed to get {}".format(mod_name))
-        sys.exit(-1)
+        return 0
 
     tags = repo.get_tags()
     count = tags.totalCount
@@ -56,5 +60,7 @@ def PublishToGithub(token, mod_name, version, last_change, is_draft, is_prerelea
         gitrepo.remotes.origin.fetch()
     except:
         print(" * fetch() failed, check ssh from the cmd")
+        return 0
     else:
         print(" * success.")
+        return 1
