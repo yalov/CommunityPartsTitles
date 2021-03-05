@@ -1,9 +1,22 @@
 ## ChangeLog:
 
+### 0.8.0
+ * new:
+    * RationalResources 1.15.0
+    * StockalikeMiningExtension 1.1.6
+ * updates:
+    * rename all patches as mod identifiers
+    * Update all supported mods for its last versions
+
+ * CommunityPartsTitles Extras Category:
+    * hide cck-kas category (common cck-eva is used instead)
+    * new cck category for KerbalPlanetaryBaseSystems
+    * moving structural pylons to Coupling
+
 ### 0.7.1
  * updates:
     * CryoEngines 2.0.0 (@LouisB3)
- * rename patches in extras to be more clear:  
+ * rename patches in extras to be more clear:
    category_hide_nflv, category_hide_cck_parts
 
 ### 0.7.0
@@ -11,7 +24,7 @@ Thanks to @LouisB3 for the work on this release
  * new:
     * FarFutureTechnologies 1.0.1
     * SystemHeat 0.3.7
-    * Kerbal Reusability Expansion 2.9.1  
+    * Kerbal Reusability Expansion 2.9.1
  * updates:
     * KerbalAtomics 1.2.1
     * CryoEngines 1.2.1 Dev (MethaloxEngines)
@@ -19,7 +32,7 @@ Thanks to @LouisB3 for the work on this release
     * NearFutureSpacecraft 1.4.1
     * NearFutureLaunchVehicles 2.1.2
  * CommunityPartsTitles Extras Category:
-    * Disable NFLV simple view CCK category. You could use Extended NFLV category. 
+    * Disable NFLV simple view CCK category. You could use Extended NFLV category.
       If you want the NFLV simple view CCK category back, remove the 002_CommunityPartsTitles\Extras\category_no_nflv.cfg
 
 ### 0.6.9
@@ -75,7 +88,7 @@ Thanks to @LouisB3 for the work on this release
     * ReStock+ 1.1.1
     * NF Launch Vehicles 2.0.1
     * MM 4.1.3
-        
+
 ### 0.6.0
  * new:
     * Regex-replace for the stock descriptions: titles corresponds descriptions now.
@@ -103,7 +116,7 @@ Thanks to @LouisB3 for the work on this release
 ### 0.5.4
  * fixes:
     * removed the dublicate of localization folder
-    * parts isn't hidden from the Cargo category 
+    * parts isn't hidden from the Cargo category
  * updates:
     * removed Deployable Batteries patch, it's better by default
     * prepend cck-tags
@@ -128,16 +141,16 @@ Thanks to @LouisB3 for the work on this release
     * remove :FINAL from the Extras patches
 
 ### 0.5.0
- * Separated Extras/ from the main CPT on CKAN 
+ * Separated Extras/ from the main CPT on CKAN
    (but on Spacedock and github they are still in the archive and inside inner folder)
-    * Community Parts Titles Extras: Category  
+    * Community Parts Titles Extras: Category
       Create new categories or place parts to a more appropriate category.
     * Community Parts Titles Extras: CCK - No Duplicates
-      If parts are placed in a CCK category, it usually also appeared in the original category.  
-      This patch hide all CCK-parts from the original categories.  
-      CPT give new titles considering the "No Duplicates", so it is recommended.  
-      The mod was separated, because it has one disadvantage:  
-      parts what was hided from their original categories are not available in the search.  
+      If parts are placed in a CCK category, it usually also appeared in the original category.
+      This patch hide all CCK-parts from the original categories.
+      CPT give new titles considering the "No Duplicates", so it is recommended.
+      The mod was separated, because it has one disadvantage:
+      parts what was hided from their original categories are not available in the search.
  * new:
     * Recycled Parts: Atomic Age 0.1.7
     * Solid Fuel Cell
@@ -183,7 +196,7 @@ Thanks to @LouisB3 for the work on this release
     * US2 v1.6.0.10 beta
     * KerbalFoundries v2.3.7.17 Prerelease
     * science: 2HOT, 3PresMat, 4Double-C, 6RAVMAX
-    * height for SRB 
+    * height for SRB
  * fixes:
     * fix US2 missing parts for US2+CCK+Kerbalism
 
@@ -227,49 +240,49 @@ Thanks to @LouisB3 for the work on this release
     * mk2ex
 
 ### 0.3.5
- * ksp 1.3.0 - ksp 1.6.9, compatibility is back!  
+ * ksp 1.3.0 - ksp 1.6.9, compatibility is back!
    old s2-s3 adapter is "Adapter 25-37 Kerbodyne Brand" (whatever you have the old ksp 1.3-1.5 or you enabled the old part on the ksp1.6)
-   new s2-s3 tank is "Kerbodyne S2-S3 Adapter Tank"     
+   new s2-s3 tank is "Kerbodyne S2-S3 Adapter Tank"
  * new: Mk1PrototypeCockpit
 
 ### 0.3.4
  * update for the ksp 1.6
- * uncompatible with ksp 1.3-1.5, because since ksp 1.6.0 the adapter s2-s3 is in the tanks,  
-   so it should have a new title,  
-   but it share the same #autoloc with the previous version. 
+ * uncompatible with ksp 1.3-1.5, because since ksp 1.6.0 the adapter s2-s3 is in the tanks,
+   so it should have a new title,
+   but it share the same #autoloc with the previous version.
 
 ### 0.3.3
- * updates: engines  
+ * updates: engines
    it's a last ksp 1.3-1.5 update (it is not)
-    
+
 ### 0.3.2
- * new: 
+ * new:
     * Kerbonov Kn-2
- * updates: 
+ * updates:
     * Missing History
     * tanks
     * MM v3.1.2
 
 ### 0.3.1
- * new: 
+ * new:
     * BetterSRBs
- * updates: 
+ * updates:
     * NF-Spacecraft v1.0
     * MM v3.1.1
 
 
 ### 0.3.0
- * new: 
+ * new:
     * NF-Construction
     * KAS (1.0 & Legacy)
- * updates: 
+ * updates:
     * Engines
     * Girder segments
     * MM v3.1.0
  * Extras\ folder with patches, what can move parts to other category:
     * KAS&KIS in the one cck-EVA category
     * cck-parts don't appear in the stock categories
-    
+
 ### 0.2.10
     updates: Airplane Plus v24.0
 
@@ -281,30 +294,30 @@ Thanks to @LouisB3 for the work on this release
     updates: stock-wheels
 
 ### 0.2.7 (Beta-7)
-    new: 
-        nf-aeronautics 
+    new:
+        nf-aeronautics
         MSP3000
-        UnmannedBeforeManned 
+        UnmannedBeforeManned
         DecouplerShroud
-    updates: 
-        KAX 
+    updates:
+        KAX
         SEP
-    
+
 ### 0.2.6 (Beta-6)
     new: KAX
     delete: KAS (until KAS 1.0 relesed)
     updates: nf-electrical
 
 ### 0.2.5 (Beta-5)
-    new: 
+    new:
         JX2Antenna
     updates:
-        OpenCockpit 
+        OpenCockpit
         SRBs
         Battery
         S3-Engines
         Antennas
-        
+
 ### 0.2.4 (Beta-4)
     Airplane Plus
     OpenCockpit update
@@ -326,12 +339,12 @@ Thanks to @LouisB3 for the work on this release
     KAS
 
 ### 0.1.4 (Alpha-4)
-    KIS 
-    Mk2-Expansion (engines) 
-    NF Launch Vehicles 
-    NF Propulsion 
-    NF Spacecraft 
-    Surface Experiment Pack 
+    KIS
+    Mk2-Expansion (engines)
+    NF Launch Vehicles
+    NF Propulsion
+    NF Spacecraft
+    Surface Experiment Pack
     Tarsier Space Technology
 
 ### 0.1.3 (Alpha-3)
