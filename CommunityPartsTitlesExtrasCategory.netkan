@@ -1,15 +1,19 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "CommunityPartsTitlesExtrasCategory",
-    "$kref"        : "#/ckan/github/yalov/CommunityPartsTitles",
     "name"         : "Community Parts Titles Extras: Categories",
     "abstract"     : "Highly recommended Extras for the Community Parts Titles. Create new categories or place parts to a more appropriate category. Though these techniques aren't overused",
     "author"       : "flart",
-    "license"      : "GPL-3.0",
+    "$kref"        : "#/ckan/github/yalov/CommunityPartsTitles",
     "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "GPL-3.0",
     "resources" : {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/174189-*"
     },
+    "tags": [
+        "config",
+        "convenience"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],
@@ -22,8 +26,8 @@
         {
             "file"       : "GameData/002_CommunityPartsTitles/Extras",
             "install_to" : "GameData/002_CommunityPartsTitles",
-            "filter"     : "category_hide_cck.cfg",
-            "comment"    : "Extras folder without the category_hide_cck.cfg. There is CommunityPartsTitlesExtrasNoDup for it"
+            "filter"     : "CPTE_category_hide_cck_parts.cfg",
+            "comment"    : "Extras folder without the category_hide_cck_parts.cfg. There is CommunityPartsTitlesExtrasNoDup for it"
         }
     ]
 }
