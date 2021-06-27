@@ -1,5 +1,9 @@
 ## ChangeLog:
 
+### 0.8.1
+* updates:
+    * ksp 1.12.0
+
 ### 0.8.0
  * new:
     * RationalResources 1.15.0
