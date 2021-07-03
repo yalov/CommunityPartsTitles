@@ -1,5 +1,12 @@
 ## ChangeLog:
 
+### 0.8.2
+ * new:
+    * Mk3Expansion 1.6
+    * StockishProjectOrion 1.8.2
+ * updates:	
+    * Mk2Expansion 1.9
+
 ### 0.8.1
 * updates:
     * ksp 1.12.0
