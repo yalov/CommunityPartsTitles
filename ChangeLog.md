@@ -1,5 +1,12 @@
 ## ChangeLog:
 
+### 0.8.3
+ * updates:
+    * ksp 1.12.2
+    * StationPartsExpansionRedux 2.0.0
+	* all battery
+	* different fixes by @Dominiquini
+
 ### 0.8.2
  * new:
     * Mk3Expansion 1.6
