@@ -1,5 +1,9 @@
 ## ChangeLog:
 
+### 0.8.4
+ * updates:
+    * FFT 1.2.0
+
 ### 0.8.3
  * updates:
     * ksp 1.12.2
