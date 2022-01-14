@@ -1,5 +1,11 @@
 ## ChangeLog:
 
+### 0.8.6
+ * new:
+    * ExtraDockingPorts v1.1.1
+ * updates:
+    * NF Exploration v1.1.2
+
 ### 0.8.5
  * updates:
     * restock+ 1.4.2 (No MH)
