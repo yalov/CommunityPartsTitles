@@ -1,5 +1,36 @@
 ## ChangeLog:
 
+### 0.9.0
+ Huge update (Many thanks to @MinchinWeb)
+ * updates:
+    * Full LF Tanks rework of all supported mods: AB-<diameter>-<capacity>
+       * FL ("Fuel Level") -- regular liquid fuel + oxidizer tanks
+       * FS -- single-ended liquid fuel + oxidizer tanks
+       * FV -- adapter liquid fuel + oxidizer tanks; i.e. tanks that have different diameters top and bottom 
+       * OL -- for monopropellant tanks
+       * Ar -- for Argon tanks
+       * Li -- for Lithium tanks
+       * Xe -- for Xenon tanks
+       * UH -- Holding tanks (for Ore)
+       * NL ("Nuclear Liquid") -- liquid fuel only tanks, for use with Nuclear engines
+       * YD -- Hydrogen Tanks
+ * new:
+    * Indicator Lights 1.8.1
+    * JX2Antenna 2.0.5
+	* Remote Tech 1.9.12
+	* Sounding Rockets 1.4.0
+	* SSR Microsat Revived 0.1.4
+	* KSP WarpDrive 0.9.4.1
+	* FTLDriveContinued 0.2.3.2
+	* AlcubierreStandalone 1.4.0
+	* JxFabUtilitySystems v0
+	* MoreServos 1.2.0
+	* SLOTH 1.1.1
+	* KerbalMotorbikes 1.1.0
+	* PhotonSailor 1.7.3
+	* ExtraPlanetaryLaunchpads 6.99.0.0
+	* Sandcastle 1.0.1
+	
 ### 0.8.6
  * new:
     * ExtraDockingPorts v1.1.1
