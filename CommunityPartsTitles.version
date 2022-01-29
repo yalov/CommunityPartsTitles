@@ -1,6 +1,7 @@
 {
     "NAME":"CommunityPartsTitles",
-    "URL":"https://raw.githubusercontent.com/yalov/CommunityPartsTitles/master/GameData/002_CommunityPartsTitles/CommunityPartsTitles.version",
+    "URL":"https://raw.githubusercontent.com/yalov/CommunityPartsTitles/master/CommunityPartsTitles.version",
+    "CHANGE_LOG_URL": "https://raw.githubusercontent.com/yalov/CommunityPartsTitles/master/ChangeLog.md",
     "DOWNLOAD":"https://github.com/yalov/CommunityPartsTitles/releases",
     "GITHUB": {
         "USERNAME": "yalov",
