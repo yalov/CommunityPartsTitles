@@ -1,13 +1,12 @@
 ## ChangeLog:
 
 ### 0.9.0
- Huge update (Many thanks to @MinchinWeb)
  * updates:
-    * Full LF Tanks rework of all supported mods: AB-<diameter>-<capacity>
-       * FL ("Fuel Level") -- regular liquid fuel + oxidizer tanks
+    * Full LF Tanks rework of all supported mods: AB-<diameter>-<capacity> (Many thanks to @MinchinWeb)
+	   * FL ("Fuel Level") -- regular liquid fuel + oxidizer tanks
        * FS -- single-ended liquid fuel + oxidizer tanks
        * FV -- adapter liquid fuel + oxidizer tanks; i.e. tanks that have different diameters top and bottom 
-       * OL -- for monopropellant tanks
+       * EO -- for monopropellant tanks  
        * Ar -- for Argon tanks
        * Li -- for Lithium tanks
        * Xe -- for Xenon tanks
