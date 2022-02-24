@@ -1,5 +1,9 @@
 ## ChangeLog:
 
+### 0.9.1
+ * fix:
+    * CryoTanks 1.6.4
+
 ### 0.9.0
  * updates:
     * Full LF Tanks rework of all supported mods: AB-<diameter>-<capacity> (Many thanks to @MinchinWeb)
