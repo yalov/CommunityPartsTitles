@@ -1,5 +1,9 @@
 ## ChangeLog:
 
+### 0.9.2
+ * fix Extras:
+    * KAS without KIS
+
 ### 0.9.1
  * fix:
     * CryoTanks 1.6.4
