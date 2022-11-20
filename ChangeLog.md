@@ -1,5 +1,9 @@
 ## ChangeLog:
 
+### 0.9.3
+ * fix:
+   * support KIS2-alpha4
+
 ### 0.9.2
  * fix Extras:
     * KAS without KIS
