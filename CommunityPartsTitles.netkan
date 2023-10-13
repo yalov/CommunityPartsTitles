@@ -27,6 +27,8 @@
     "suggests": [
         { "name": "CactEyeCommunityRefocused" },
         { "name": "LithobrakeExplorationTechnologies" },
+        { "name": "RecycledPartsMk2Essentials" },
+        { "name": "RecycledPartsMk2SolarBatteries" },
         { "name": "KAS" },
         { "name": "KIS" },
 
