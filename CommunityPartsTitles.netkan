@@ -34,6 +34,8 @@
         { "name": "USI-EXP" },
         { "name": "UKS" },
         { "name": "Buffalo2" },
+        { "name": "Antennas" },
+        { "name": "RecycledPartsOrgamiFoldableAssets" },
         { "name": "KAS" },
         { "name": "KIS" },
 
@@ -47,6 +49,7 @@
 
         { "name": "NearFutureAeronautics" },
         { "name": "NearFutureElectrical" },
+        { "name": "NearFutureExploration" },
         { "name": "NearFuturePropulsion" },
         { "name": "NearFutureSolar" },
         { "name": "NearFutureSpacecraft" },
