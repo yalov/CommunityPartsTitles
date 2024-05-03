@@ -98,23 +98,27 @@ Tanks are named "*prefix*-*diameter*-*volume* 'nice' name".
 - *G* -- Hinge
 - *HS* -- Heat Shield
 - *I* -- Lights ("Illuminator")
-- *IN* -- Intakes
-- *KX* -- Solar Panels, radial mounted (that don't require deployment)
-- *OX* -- Solar Panels, requiring deployment (that can't be retracted)
-- *SP* -- Solar Panels, that can be deployed and retracted
-- *Nc* -- Drogue Parachute
-- *Nk* -- "Normal" Parachute
+- *IN* -- Intakes (like for air for jet engines)
+- *KX* -- Solar Panels, surface/radial mounted (that don't require deployment) (c.f. *OX* and *SP*)
+- *LT* -- Landing Legs/Landing Struts
+- *LY* -- Landing Wheels (e.g. for planes)
+- *Nb* -- Cargo-packed Parachutes
+- *Nc* -- Radial-mounted Parachutes
+- *Nk* -- Nosecone or Inline-mounted Parachutes; suffix with *D* for Drogue parachutes
+- *OX* -- Solar Panels, requiring deployment (that can't be retracted) (c.f. *KX* and *SP*)
 - *SM* -- Service Module
-- *TD* -- (stack) decoupler
+- *SP* -- Solar Panels, that can be deployed and retracted (c.f. *KX* and *OX*)
+- *TB* -- Structural Tube/Structural Fuselage ("tube")
+- *TD* -- (stack) decoupler (c.f. *TS*)
 - *TF* -- Fuel Decoupler
-- *TS* -- (stack) separater
-- *TT* or *TY-RD* -- radial decoupler
+- *TS* -- (stack) separater (c.f. *TD*)
+- *TT* or *TY-RD* -- radial decoupler (*TT* us also used for launch supports)
 - *TVR* -- Adaptor Plates. Multiple sizes are split by a vertical bar, listed from smallest to largest, e.g. "Adapter 50-12|25|37"
 - *WR* -- Reaction Wheels / Gyroscope
-- *XR* -- Radiator Panel (radial mounted)
-- *XT* -- Thermal Control System / Radiator Panel (extendable)
+- *WZ* -- Tail Connector (the opposite of a "nose cone")
+- *XR* -- Radiator Panel (radial mounted) (c.f. *XT*)
+- *XT* -- Thermal Control System / Radiator Panel (extendable) (c.f. *XR*)
 - *Z* -- Battery (flat mount)
 - *Zs* -- Battery (inline stack)
 - *ZZ* -- Capacitor (flat mount)
 - *ZZs* -- Capacitor (inline stack)
-- *LY* -- Landing Wheels (e.g. for planes)
