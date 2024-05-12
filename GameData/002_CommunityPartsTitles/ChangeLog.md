@@ -1,5 +1,7 @@
 ## ChangeLog:
 
+### 0.10.1
+ * update .netkan
 
 ### 0.10.0 (Big Update by @MinchinWeb)
  * updates:
