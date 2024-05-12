@@ -29,13 +29,13 @@
         { "name": "LithobrakeExplorationTechnologies" },
         { "name": "RecycledPartsMk2Essentials" },
         { "name": "RecycledPartsMk2SolarBatteries" },
-        { "name": "SpaceY-Lifters" },
-        { "name": "SpaceY-Expanded" },
+		{ "name": "RecycledPartsOrgamiFoldableAssets" },
+        { "name": "RecycledPartsAtomicAge" },
         { "name": "USI-EXP" },
         { "name": "UKS" },
         { "name": "Buffalo2" },
         { "name": "Antennas" },
-        { "name": "RecycledPartsOrgamiFoldableAssets" },
+
         { "name": "KAS" },
         { "name": "KIS" },
 
@@ -60,7 +60,7 @@
         { "name": "CryoTanks" },
         { "name": "HeatControl" },
 
-        { "name": "RecycledPartsAtomicAge" },
+
         { "name": "MissingHistory" },
         { "name": "KerbalPlanetaryBaseSystems" },
         { "name": "TACLS" },
