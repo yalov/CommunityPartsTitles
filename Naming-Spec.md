@@ -89,6 +89,7 @@ Tanks are named "*prefix*-*diameter*-*volume* 'nice' name".
 
 ## Other Parts
 
+- *Adapter* -- Adaptor Plates. Multiple sizes are split by a vertical bar, listed from smallest to largest, e.g. "Adapter 50-12|25|37"
 - *AE-FF* -- Fairings
 - *AN* -- Nose Cone
 - *AV* -- fins and wings
@@ -113,7 +114,6 @@ Tanks are named "*prefix*-*diameter*-*volume* 'nice' name".
 - *TF* -- Fuel Decoupler
 - *TS* -- (stack) separater (c.f. *TD*)
 - *TT* or *TY-RD* -- radial decoupler (*TT* us also used for launch supports)
-- *TVR* -- Adaptor Plates. Multiple sizes are split by a vertical bar, listed from smallest to largest, e.g. "Adapter 50-12|25|37"
 - *WR* -- Reaction Wheels / Gyroscope
 - *WZ* -- Tail Connector (the opposite of a "nose cone")
 - *XR* -- Radiator Panel (radial mounted) (c.f. *XT*)
