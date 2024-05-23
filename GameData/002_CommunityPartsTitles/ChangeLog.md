@@ -1,5 +1,8 @@
 ## ChangeLog:
 
+### 0.10.2
+ * fix stock expansion heat shield
+ 
 ### 0.10.1
  * update .netkan
 

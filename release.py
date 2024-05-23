@@ -129,7 +129,7 @@ if __name__ == '__main__':
 
     copy(VERSIONFILE, "GameData/" + MODFOLDER)
     copy(CHANGELOG, "GameData/" + MODFOLDER)
-    copy(MODNAME + ".netkan", "GameData/" + MODFOLDER)
+    copy(MODNAME + ".netkan", "GameData/" + MODFOLDER + "/" + MODNAME + ".ckan")
 
     VERSION = get_version(VERSIONFILE)
     KSP_VER = get_version(VERSIONFILE, "KSP_VERSION")
