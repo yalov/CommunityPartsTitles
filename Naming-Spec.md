@@ -107,6 +107,7 @@ Tanks are named "*prefix*-*diameter*-*volume* 'nice' name".
 - *Nc* -- Radial-mounted Parachutes
 - *Nk* -- Nosecone or Inline-mounted Parachutes; suffix with *D* for Drogue parachutes
 - *OX* -- Solar Panels, requiring deployment (that can't be retracted) (c.f. *KX* and *SP*)
+- *SEQ* -- Storage Containers. First value is diameter, and second combined value is slots/volume.
 - *SM* -- Service Module
 - *SP* -- Solar Panels, that can be deployed and retracted (c.f. *KX* and *OX*)
 - *TB* -- Structural Tube/Structural Fuselage ("tube")
