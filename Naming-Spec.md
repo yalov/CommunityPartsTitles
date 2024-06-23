@@ -55,6 +55,36 @@ source mod will be added after the part title, in parenthesis; e.g. *(RS+)*.
 
 ## Engines
 
+Engines have been broken into 6 sub-categories: Eve-rated Boosters,
+(Kerbin-rated) Boosters (or Lifters), Sustainers, Orbital, Deep Space, Exotic
+(aka "Other"), and Solid Rocket Boosters.
+
+### Eve-rated Boosters
+
+There are boosters that function at Sea Level on Eve (i.e. at 5 atm)
+
+*LA*
+
+### (Kerbin-rated) Boosters
+
+*LB*
+
+### Sustainers
+
+*LS*
+
+### Oribital (Manoeuvre Engines)
+
+*LZ*
+
+### Deep Space
+
+*IX*
+
+### Exotics (aka "Others")
+
+*IZ*
+
 Engines have yet to be thoroughly standardized and thus still use a variety of
 naming conventions.
 
@@ -65,6 +95,8 @@ If in doubt, you can use:
 engines,
 - *J* for jet engines,
 - *IX* for Ion engines,
+
+### Solid Rocket Boosters
 
 The exception is solid rocket boosters, that are named "SRB-*diameter*-*fuel
 amount*".
