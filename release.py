@@ -129,7 +129,10 @@ if __name__ == '__main__':
 
     copy(VERSIONFILE, "GameData/" + MODFOLDER)
     copy(CHANGELOG, "GameData/" + MODFOLDER)
+    # need to rename to .ckan, to CKAN parse on every release
     copy(MODNAME + ".netkan", "GameData/" + MODFOLDER + "/" + MODNAME + ".ckan")
+    copy("Naming-Spec.md", "GameData/" + MODFOLDER)
+    
 
     VERSION = get_version(VERSIONFILE)
     KSP_VER = get_version(VERSIONFILE, "KSP_VERSION")
