@@ -92,8 +92,13 @@ Tanks are named "*prefix*-*diameter*-*volume* 'nice' name".
 - *Adapter* -- Adaptor Plates. Multiple sizes are split by a vertical bar, listed from smallest to largest, e.g. "Adapter 50-12|25|37"
 - *AE-FF* -- Fairings
 - *AN* -- Nose Cone
-- *AV* -- fins and wings
 - *C* -- Antennas (stock)
+- *AV* -- Fins and (Basic) Wings. Number is "realive wing area" x 10. (c.f. *Wing* and *XL*)
+    - *AV-B* -- basic fins
+    - *AV-D* -- 
+    - *AV-R* -- 
+    - *AV-T* -- 
+    - *AV-U* -- deployable fins, e.g. AIRBRAKES or grid fins
 - *CO* -- Omnidirectional Antennas (with RemoteTech)
 - *CD* -- Directional Antennas (dishes) (with RemoteTech)
 - *G* -- Hinge
