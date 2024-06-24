@@ -101,24 +101,16 @@ Tanks are named "*prefix*-*diameter*-*volume* 'nice' name".
     - *AV-T* -- 
     - *AV-U* -- deployable fins, e.g. AIRBRAKES or grid fins
 - *C* -- Antennas (stock); Number is the antenna class, based on antenna power:
-    - *C0* -- is ~5,000; < 5,500
-    - *C0+* -- > 5,500, < 249x10^3
-    - *C0++* -- > 249x10^3, < 449x10^3
-    - *C1* -- is ~500k; > 449x10^3, < 549x10^3
-    - *C1+* -- > 549x10^3, < 4.499x10^6
-    - *C2* -- is ~5M > 4.499x10^6, < 5.499x10^6
-    - *C2+* -- > 5.499x10^6, < 494x10^6
-    - *C2++* -- > 494x10^6, < 1.996x10^9
-    - *C3* -- is ~2G; > 1.996x10^9. < 2.004x10^9
-    - *C3+* -- > 2.004x10^9, < 14.96x10^9
-    - *C4* -- is ~15G; > 14.96x10^9, < 15.04x10^9
-    - *C4+* -- > 15.04x10^9, < 99x10^9
-    - *C5* -- is ~100G; > 99x10^9, < 101x10^9
-    - *C5+* -- > 101x10^9, < 996x10^9
-    - *C6* -- is ~1000G; > 996x10^9, < 1.004x10^12
-    - *C6+* -- > 1.004x10^12, < 9.96x10^12
-    - *C7* -- is ~10T; > 9.96x10^12, < 10.04x10^12
-    - *C7+* -- > 10.04x10^12
+  | Class | Power | Limits          | Class | Limits          | Class | Limits        |
+  |-------|-------|-----------------|-------|-----------------|-------|---------------|
+  | C0    | 5k    | 0 - 5500        | C0+   | 5500 - 249k     | C0++  | 249k - 449k   |
+  | C1    | 500k  | 449k - 549k     | C1+   | 549k - 4.499M   |       |               |
+  | C2    | 5M    | 4.499M - 5.499M | C2+   | 5.499M - 494M   | C2++  | 494M - 1.996G |
+  | C3    | 2G    | 1.996G - 2.004G | C3+   | 2.004G - 14.96G |       |               |
+  | C4    | 15G   | 14.96G - 15.04G | C4+   | 15.04G - 99G    |       |               |
+  | C5    | 100G  | 99G - 101G      | C5+   | 101G - 996G     |       |               |
+  | C6    | 1T    | 996G - 1.004T   | C6+   | 1.004T - 9.96T  |       |               |
+  | C7    | 10T   | 9.96T - 10.04T  | C7+   | 10.04T - ...    |       |               |
 - *CO* -- Omnidirectional Antennas (with RemoteTech)
 - *CD* -- Directional Antennas (dishes) (with RemoteTech)
 - *G* -- Hinge
@@ -132,8 +124,8 @@ Tanks are named "*prefix*-*diameter*-*volume* 'nice' name".
 - *Nc* -- Radial-mounted Parachutes
 - *Nk* -- Nosecone or Inline-mounted Parachutes; suffix with *D* for Drogue parachutes
 - *OX* -- Solar Panels, requiring deployment (that can't be retracted) (c.f. *KX* and *SP*)
-- *RL* -- RSC blocks (or engines) running on Liquid Fuel + Oxidizer. Numbers as per *RV*. (c.f. *RV*)
-- *RV* -- RCS blocks, Monopropellant Fuels. First value is thrust x10, followed by "x" and the (maximum) number of ports. Use a suffix of "A" for angled thrusters, and a suffix of "B" (for "booster") for higher than normal Isp (100s at Sea Level, 240s in Vacuum). (c.f. *RL*)
+- (WIP) *RL* -- RSC blocks (or engines) running on Liquid Fuel + Oxidizer. Numbers as per *RV*. (c.f. *RV*) 
+- (WIP) *RV* -- RCS blocks, Monopropellant Fuels. First value is thrust x10, followed by "x" and the (maximum) number of ports. Use a suffix of "A" for angled thrusters, and a suffix of "B" (for "booster") for higher than normal Isp (100s at Sea Level, 240s in Vacuum). (c.f. *RL*)
 - *SEQ* -- Storage Containers. First value is diameter, and second combined value is slots/volume.
 - *SM* -- Service Module
 - *SP* -- Solar Panels, that can be deployed and retracted (c.f. *KX* and *OX*)
