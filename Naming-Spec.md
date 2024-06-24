@@ -37,6 +37,8 @@ source mod will be added after the part title, in parenthesis; e.g. *(RS+)*.
 
 - FTP -- Fuel Tanks Plus
 - Kerbonov
+- Mk2+ -- Mk 2 Expansion
+- Mk3+ -- Mk 3 Expansion
 - N-Series -- Near Future Launch Vehicles
 - Orion -- Stockish Project Orion
 - SpaceY
@@ -92,13 +94,31 @@ Tanks are named "*prefix*-*diameter*-*volume* 'nice' name".
 - *Adapter* -- Adaptor Plates. Multiple sizes are split by a vertical bar, listed from smallest to largest, e.g. "Adapter 50-12|25|37"
 - *AE-FF* -- Fairings
 - *AN* -- Nose Cone
-- *C* -- Antennas (stock)
 - *AV* -- Fins and (Basic) Wings. Number is "realive wing area" x 10. (c.f. *Wing* and *XL*)
     - *AV-B* -- basic fins
     - *AV-D* -- 
     - *AV-R* -- 
     - *AV-T* -- 
     - *AV-U* -- deployable fins, e.g. AIRBRAKES or grid fins
+- *C* -- Antennas (stock); Number is the antenna class, based on antenna power:
+    - *C0* -- is ~5,000; < 5,500
+    - *C0+* -- > 5,500, < 249x10^3
+    - *C0++* -- > 249x10^3, < 449x10^3
+    - *C1* -- is ~500k; > 449x10^3, < 549x10^3
+    - *C1+* -- > 549x10^3, < 4.499x10^6
+    - *C2* -- is ~5M > 4.499x10^6, < 5.499x10^6
+    - *C2+* -- > 5.499x10^6, < 494x10^6
+    - *C2++* -- > 494x10^6, < 1.996x10^9
+    - *C3* -- is ~2G; > 1.996x10^9. < 2.004x10^9
+    - *C3+* -- > 2.004x10^9, < 14.96x10^9
+    - *C4* -- is ~15G; > 14.96x10^9, < 15.04x10^9
+    - *C4+* -- > 15.04x10^9, < 99x10^9
+    - *C5* -- is ~100G; > 99x10^9, < 101x10^9
+    - *C5+* -- > 101x10^9, < 996x10^9
+    - *C6* -- is ~1000G; > 996x10^9, < 1.004x10^12
+    - *C6+* -- > 1.004x10^12, < 9.96x10^12
+    - *C7* -- is ~10T; > 9.96x10^12, < 10.04x10^12
+    - *C7+* -- > 10.04x10^12
 - *CO* -- Omnidirectional Antennas (with RemoteTech)
 - *CD* -- Directional Antennas (dishes) (with RemoteTech)
 - *G* -- Hinge
@@ -112,6 +132,8 @@ Tanks are named "*prefix*-*diameter*-*volume* 'nice' name".
 - *Nc* -- Radial-mounted Parachutes
 - *Nk* -- Nosecone or Inline-mounted Parachutes; suffix with *D* for Drogue parachutes
 - *OX* -- Solar Panels, requiring deployment (that can't be retracted) (c.f. *KX* and *SP*)
+- *RL* -- RSC blocks (or engines) running on Liquid Fuel + Oxidizer. Numbers as per *RV*. (c.f. *RV*)
+- *RV* -- RCS blocks, Monopropellant Fuels. First value is thrust x10, followed by "x" and the (maximum) number of ports. Use a suffix of "A" for angled thrusters, and a suffix of "B" (for "booster") for higher than normal Isp (100s at Sea Level, 240s in Vacuum). (c.f. *RL*)
 - *SEQ* -- Storage Containers. First value is diameter, and second combined value is slots/volume.
 - *SM* -- Service Module
 - *SP* -- Solar Panels, that can be deployed and retracted (c.f. *KX* and *OX*)
@@ -120,8 +142,10 @@ Tanks are named "*prefix*-*diameter*-*volume* 'nice' name".
 - *TF* -- Fuel Decoupler
 - *TS* -- (stack) separater (c.f. *TD*)
 - *TT* or *TY-RD* -- radial decoupler (*TT* us also used for launch supports)
+- *Wing* -- Modular Wings (c.f. *AV* and *XL*)
 - *WR* -- Reaction Wheels / Gyroscope
 - *WZ* -- Tail Connector (the opposite of a "nose cone")
+- *XL* -- large Wings and Control Surfaces (c.f. *AV* and *Wing*)
 - *XR* -- Radiator Panel (radial mounted) (c.f. *XT*)
 - *XT* -- Thermal Control System / Radiator Panel (extendable) (c.f. *XR*)
 - *Z* -- Battery (flat mount)
