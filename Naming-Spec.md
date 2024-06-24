@@ -101,6 +101,7 @@ Tanks are named "*prefix*-*diameter*-*volume* 'nice' name".
     - *AV-T* -- 
     - *AV-U* -- deployable fins, e.g. AIRBRAKES or grid fins
 - *C* -- Antennas (stock); Number is the antenna class, based on antenna power:
+
   | Class | Power | Limits          | Class | Limits          | Class | Limits        |
   |-------|-------|-----------------|-------|-----------------|-------|---------------|
   | C0    | 5k    | 0 - 5500        | C0+   | 5500 - 249k     | C0++  | 249k - 449k   |
@@ -111,6 +112,7 @@ Tanks are named "*prefix*-*diameter*-*volume* 'nice' name".
   | C5    | 100G  | 99G - 101G      | C5+   | 101G - 996G     |       |               |
   | C6    | 1T    | 996G - 1.004T   | C6+   | 1.004T - 9.96T  |       |               |
   | C7    | 10T   | 9.96T - 10.04T  | C7+   | 10.04T - ...    |       |               |
+  
 - *CO* -- Omnidirectional Antennas (with RemoteTech)
 - *CD* -- Directional Antennas (dishes) (with RemoteTech)
 - *G* -- Hinge
