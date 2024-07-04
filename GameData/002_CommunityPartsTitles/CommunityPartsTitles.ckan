@@ -109,7 +109,11 @@
         { "name": "USI-EXP" },
         { "name": "UKS" },
         { "name": "Buffalo2" },
-        { "name": "Antennas" }
+        { "name": "Antennas" },
+        { "name": "DodoLabsStockalikeElectron" },
+        { "name": "Luciole" }
+
+
 
     ],
     "install" : [

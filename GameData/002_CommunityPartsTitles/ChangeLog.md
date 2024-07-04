@@ -1,5 +1,13 @@
 ## ChangeLog:
 
+### 0.10.3
+* new:
+    * DodoLabs 1.3.1.1
+    * Luciole 1.9
+* updates:
+    * rework SEQ for storage containers
+    * small different updates 
+
 ### 0.10.2
  * fix stock expansion heat shield
  
