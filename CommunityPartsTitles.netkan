@@ -20,6 +20,7 @@
     "recommends": [
         { "name": "CommunityPartsTitlesExtrasCategory" },
         { "name": "CommunityPartsTitlesExtrasNoCCKDup" },
+        { "name": "CommunityPartsTitlesExtrasEngines" },
         { "name": "ModuleManager" },
         { "name": "SpeedUnitAnnex" },
         { "name": "CommunityCategoryKit" }
