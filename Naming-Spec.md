@@ -126,8 +126,10 @@ Tanks are named "*prefix*-*diameter*-*volume* 'nice' name".
 - *Nc* -- Radial-mounted Parachutes
 - *Nk* -- Nosecone or Inline-mounted Parachutes; suffix with *D* for Drogue parachutes
 - *OX* -- Solar Panels, requiring deployment (that can't be retracted) (c.f. *KX* and *SP*)
-- (WIP) *RL* -- RSC blocks (or engines) running on Liquid Fuel + Oxidizer. Numbers as per *RV*. (c.f. *RV*) 
-- (WIP) *RV* -- RCS blocks, Monopropellant Fuels. First value is thrust x10, followed by "x" and the (maximum) number of ports. Use a suffix of "A" for angled thrusters, and a suffix of "B" (for "booster") for higher than normal Isp (100s at Sea Level, 240s in Vacuum). (c.f. *RL*)
+- *RL* -- RCS blocks (or engines) running on Liquid Fuel + Oxidizer. Numbers as per *RV*. (c.f. *RV*)
+- *RLa* -- RCS blocks with thruster power greater than 1. For these, the first value is the thrust (not multiplied). (c.f. *RVa* and *RL*)
+- *RV* -- RCS blocks, Monopropellant Fuels. First value is thrust x10, followed the (maximum) number of ports. Use a suffix of "A" for angled thrusters, and a suffix of "H" (for "High Performance") for higher than normal Isp (100s at Sea Level, 240s in Vacuum). (c.f. *RL* and *RVa*)
+- *RVa* -- RCS blocks with thruster power greater than 1. For these, the first value is the thrust (not multiplied). (c.f. *RV*)
 - *SEQ* -- Storage Containers. First value is diameter, and second combined value is slots/volume.
 - *SM* -- Service Module
 - *SP* -- Solar Panels, that can be deployed and retracted (c.f. *KX* and *OX*)
