@@ -35,7 +35,11 @@ source mod will be added after the part title, in parenthesis; e.g. *(RS+)*.
 
 (Selected) designations thus used:
 
+- Cyro -- Cryo Engines
+- Cyro+ -- Cryo Engines Extensions
+- FFT -- Far Future Tech
 - FTP -- Fuel Tanks Plus
+- KA -- Kerbal Atomics
 - Kerbonov
 - Mk2+ -- Mk 2 Expansion
 - Mk3+ -- Mk 3 Expansion
@@ -55,8 +59,104 @@ source mod will be added after the part title, in parenthesis; e.g. *(RS+)*.
 
 ## Engines
 
+Engines have been broken into 6 sub-categories: Eve-rated Boosters,
+(Kerbin-rated) Boosters (or Lifters), Sustainers, Orbital, Deep Space, Exotic
+(aka "Other"), and Solid Rocket Boosters.
+
+Prefixes are suffixed with the fuel used by the engine if it is not the
+"typical" fuel for that engine class, i.e. Liquid Fuel + Oxidizer for Boosters,
+Sustainers, and Orbital manuever engines, and Xenon for Deep Space engines.
+Fuel suffixes used:
+
+- */Ar* -- Argon
+- */h* -- Hydrolox (Liquid Hydrogen + Oxidizer)
+- */In* -- (Liquid) Indium
+- */Li* -- Lithium
+- */m* -- Methalox (Liquid Methane + Oxidizer)
+- */n* -- Liquid Fuel only (for Nuclear engines)
+- */o* -- Monopropellant
+- */sun* -- solar radiation
+- */x* -- "eXotic" fuels, such as Antimatter
+
+![Engines](https://raw.githubusercontent.com/yalov/CommunityPartsTitles/master/Screenshots/ksp-engines-stock-vac.png)
+
+### Eve-rated Boosters
+
+Using the prefix *LA*, there are boosters that function at Sea Level on Eve
+(i.e. at 5 atm; many Kerbin-rated boosters effectively don't work once you get
+to ~3 atm). These are named the same a (Kerbin-rated) boosters, but values are
+given at Eve sea level:
+
+> *LA* - *diameter* - *Thrust to Weight* / *I<sub>sp</sub>* "Nickname" Engine
+
+### (Kerbin-rated) Boosters
+
+Using the prefix *LB*, these are engines designed to get your ship up off the
+launch pad. As such, they tend to optimize for thrust at sea level and thus
+typically sacrifice vacuum performance. These engines are alternately called
+"Lifters" or "Boosters". These are named, using values given at (Kerbin) sea
+level:
+
+> *LB* - *diameter* - *Thrust to Weight* / *I<sub>sp</sub>* "Nickname" Engine
+
+Technically, boosters tend to have a ratio of vacuum I<sub>sp</sub> to Sea
+Level I<sub>sp</sub> of ~1.05 to ~1.10 and a minimum Thrust to Weight ratio of
+~17 (see the chart above).
+
+### Sustainers
+
+Using the prefix *LS*, "Sustainers" are designed to keep a rocket ship already
+in motion moving. They give up some of the raw thrust of boosters in favour of
+(upper atmospheric) efficiency. In a pinch (and depending on the engines you
+have unlocked), a sustainer may be usable in place of either a booster or an
+orbital engine. These are named similiar to boosters, but using values at 0.5
+atm (or by averaging sea level and vacuum values):
+
+> *LS* - *diameter* - *Thrust to Weight* / *I<sub>sp</sub>* "Nickname" Engine
+
+Technically, Sustainers tend to have a ratio of vacuum I<sub>sp</sub> to Sea
+Level I<sub>sp</sub> of ~1.15 to ~1.25 (although values as high as 5 aren't
+unheard of) and a minimum Thrust to Weight ratio of ~10 (see the chart above).
+
+### Oribital (Manoeuvre Engines)
+
+Using the prefix *LZ*, Orbital engines are tuned for efficiency, but designed
+to provide enough thrust to allow manoeuvres to be completed in a reasonable
+time. Engines are now named by using I<sub>sp</sub> first and **raw** thrust
+(rather than Thrust to Weight ratio); values are provided for vacuum conditions:
+
+> *LZ* - *diameter* - *I<sub>sp</sub>* / *(raw) thrust* "Nickname" Engine
+
+Technically, Orbital engines tend to have a minimum ratio of vacuum
+I<sub>sp</sub> to Sea Level I<sub>sp</sub> of ~3 and a minimum Thrust to Weight
+ratio of ~7 (see the chart above). In a pinch, an Orbital engines are likely to
+function, albeit poorly, in atmosphere.
+
+### Deep Space
+
+Using the prefix *IX*, Deep Space engines are tuned for raw efficiency to the
+expense of most other considerations. These engines often provide poor thrust,
+and so missions planned around them include long burn times. Engines are named
+similarly to Orbital engines, again using values in vacuum conditions:
+
+> *IX* - *diameter* - *I<sub>sp</sub>* / *(raw) thrust* "Nickname" Engine
+
+Technically, the performance parameters of these engines are much more varied,
+but a stereotypical Deep Space engine is the (stock) "Dawn" ion engine that has
+an *I<sub>sp</sub>* of 4,200s but a Thrust to Weight ratio of only 0.8. These
+engines, as a rule, do not function in atmosphere.
+
+### Exotics (aka "Others")
+
+The prefix *IZ* is used for "non-typical" deep space engines; think futuristic
+torch drives and the like, and often use exotic fuels. These are names the same
+as Deep Space engines (which are named the same as Orbital engines), that is to
+say (using vacuum values):
+
 Engines have yet to be thoroughly standardized and thus still use a variety of
 naming conventions.
+
+> *IZ* - *diameter* - *I<sub>sp</sub>* / *(raw) thrust* "Nickname" Engine
 
 If in doubt, you can use:
 
@@ -66,9 +166,9 @@ engines,
 - *J* for jet engines,
 - *IX* for Ion engines,
 
-The exception is solid rocket boosters, that are named "SRB-*diameter*-*fuel
-amount*".
+### Solid Rocket Boosters
 
+These named "SRB-*diameter*-*fuel amount*".
 
 ## Tanks
 
@@ -87,6 +187,7 @@ Tanks are named "*prefix*-*diameter*-*volume* 'nice' name".
 - *UH* -- Holding tanks (for Ore)
 - *NL* ("Nuclear Liquid") -- liquid fuel only tanks, for use with Nuclear engines
 - *YD* -- Hydrogen Tanks
+- *ZA* -- Antimatter
 
 
 ## Other Parts
@@ -118,6 +219,7 @@ Tanks are named "*prefix*-*diameter*-*volume* 'nice' name".
 - *G* -- Hinge
 - *HS* -- Heat Shield
 - *I* -- Lights ("Illuminator")
+- *J* -- jet engines, including dual mode jet/rocket engines (like the Rapier).
 - *IN* -- Intakes (like for air for jet engines)
 - *KX* -- Solar Panels, surface/radial mounted (that don't require deployment) (c.f. *OX* and *SP*)
 - *LT* -- Landing Legs/Landing Struts

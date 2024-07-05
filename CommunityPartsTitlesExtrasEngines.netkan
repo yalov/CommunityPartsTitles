@@ -1,0 +1,29 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "CommunityPartsTitlesExtrasEngines",
+    "name"         : "Community Parts Titles Extras: Engines",
+    "abstract"     : "Highly recommended Extras for the Community Parts Titles. Breaks engines into Booster, Sustainer, Orbital manoeuvre, and Deep Space engines, and then re-titles them based on their performance.",
+    "author"       : "flart",
+    "$kref"        : "#/ckan/github/yalov/CommunityPartsTitles",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "GPL-3.0",
+    "resources" : {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/174189-*"
+    },
+    "tags": [
+        "config",
+        "convenience"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "CommunityPartsTitles" }
+    ],
+    "install" : [
+        {
+            "file"       : "GameData/002_CommunityPartsTitles/z_Engines",
+            "install_to" : "GameData/002_CommunityPartsTitles"
+        }
+    ]
+}
