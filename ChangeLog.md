@@ -1,5 +1,9 @@
 ## ChangeLog:
 
+### 0.10.4
+* new:
+    * Endurance 1.13 (thanks to @munktron239)
+
 ### 0.10.3
 * new:
     * DodoLabs 1.3.1.1
